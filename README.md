@@ -15,8 +15,8 @@ Clone this repo and then change the following in the `package.json`
 - main: The path/filename for the commonjs build. The filename should be the same as name.
 - module: The path/filename for the esmodule build. The filename should be the same as name.
 - exports
-  -- import: The path/filename for the esmodule build. Should be the same as the module entry.
-  -- require: The path/filename for the commonjs build. Should be the same as the main entry.
+  - import: The path/filename for the esmodule build. Should be the same as the module entry.
+  - require: The path/filename for the commonjs build. Should be the same as the main entry.
 
 To learn more about what these configurations are, please see [Package entry points](https://nodejs.org/api/packages.html#package-entry-points)
 
